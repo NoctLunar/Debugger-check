@@ -1,0 +1,2 @@
+if ((bool)(Type.GetType("System" + ".Diagnost" + "ics.Deb" + "ugger")?.GetProperty("IsAtt" + "ached")?.GetValue(null) ?? false) ||(bool)(Type.GetType("System.Diag" + "nostics.Deb" + "ugger") ?.GetMethod("IsLo" + "gging") ?.Invoke(null, null) ?? false))
+   Type.GetType("System.Env" + "ironment")?.GetMethod("Ex" + "it")?.Invoke(null, new object[] { 1 }); 
